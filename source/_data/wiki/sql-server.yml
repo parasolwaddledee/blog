@@ -1,0 +1,11 @@
+name: SQL Server
+title: SQL Server
+description: SQL Server 是 Microsoft 的关系型数据库管理系统，它为企业和组织的数据管理和处理提供了一套完整的工具和服务。
+tags: 笔记
+icon: /assets/wiki/sql-server/logo.svg
+base_dir: /wiki/sql-server/
+toc:
+  - index
+  - regaining-access-to-sql-server/index
+  - encrypting-sql-server-database-backups/index
+license: true

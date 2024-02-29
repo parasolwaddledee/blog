@@ -1,0 +1,125 @@
+/* noise */
+body:before {
+  background-image: url(/assets/placeholder/noise.png);
+  content: "";
+  display: block;
+  height: 100%;
+  opacity: .025;
+  pointer-events: none;
+  position: fixed;
+  touch-action: none;
+  width: 100%;
+  z-index: 10;
+}
+
+/* layout */
+@media screen and (max-width: 667px) {
+  :root {
+    --site-bg: #1c1e21;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --width-left: 288px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .l_main {
+    margin-right: calc(2 * var(--gap-l));
+  }
+}
+
+@media screen and (min-width: 2048px) {
+  :root {
+    --gap-l: 16px;
+    --width-left: 288px;
+    --width-main: 720px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  :root {
+    --gap-l: 16px;
+    --width-main: 720px;
+  }
+}
+
+/* social */
+.social-wrap {
+  justify-content: space-between;
+  align-items: center;
+  filter: invert(85%) sepia(0%) saturate(1%) hue-rotate(87deg) brightness(95%) contrast(98%);
+}
+
+.social-wrap .social:hover {
+  background: rgba(255, 255, 255, .8);
+}
+
+/* waline */
+.cmt-body.waline {
+  --waline-white: #000;
+  --waline-light-grey: #666;
+  --waline-dark-grey: #999;
+  --waline-color: #fff;
+  --waline-bgcolor: var(--block);
+  --waline-bgcolor-light: #272727;
+  --waline-border-color: #333;
+  --waline-disable-bgcolor: #444;
+  --waline-disable-color: #272727;
+  --waline-bq-color: #272727;
+  --waline-info-bgcolor: #272727;
+  --waline-info-color: #666;
+  --waline-avatar-size: 48px;
+  --waline-m-avatar-size: 44px;
+  --waline-badge-font-size: 13px;
+}
+
+.wl-header label,
+.wl-header input,
+.wl-info button,
+.wl-sort li,
+.wl-text-number,
+.wl-time {
+  font-size: 13px !important;
+}
+
+.wl-nick {
+  font-size: 15px !important;
+}
+
+.wl-editor {
+  font-size: 16px !important;
+}
+
+.wl-input,
+.wl-editor,
+.wl-btn {
+  font-family: "LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+}
+
+a.wl-action {
+  display: none !important;
+}
+
+/* post cover */
+.post-list .post-card.post.photo .cover .cover-info[position=bottom] {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+}
+
+/* wiki logo */
+.post-list .post-card.wiki article .preview img {
+  width: 80px;
+  max-height: 80px;
+}
+
+/* content */
+li {
+  font-size: var(--fsp);
+}
+
+.swiper {
+  border-radius: 12px;
+  --gap-p: 21px;
+}

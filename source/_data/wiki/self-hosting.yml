@@ -1,0 +1,11 @@
+name: Self-Hosting
+title: Self-Hosting
+description: Self-Hosting 是指在自己的设备上托管应用、服务或网站，以获得更大的控制权和自由度，以及更高的数据隐私和安全性。
+tags: 笔记
+icon: /assets/wiki/self-hosting/logo.svg
+base_dir: /wiki/self-hosting/
+toc:
+  - index
+  - self-hosting-cloud-storage-service-with-filebrowser/index
+  - self-hosting-password-manager-with-bitwarden/index
+license: true

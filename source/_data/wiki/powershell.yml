@@ -1,0 +1,20 @@
+name: PowerShell
+title: PowerShell
+description: PowerShell 是 Microsoft 的跨平台任务自动化和配置管理工具，适用于管理和控制 Windows 系统中的各种组件和服务。
+tags: 笔记
+icon: /assets/wiki/powershell/logo.svg
+base_dir: /wiki/powershell/
+toc:
+  '':
+    - index
+  最佳实践:
+    - code-readability/index
+  脚本:
+    - auto-update-pwsh/index
+    - get-date-by-week/index
+    - create-ou-layer-by-layer/index
+    - generate-random-password/index
+  更多:
+    - collection-of-powershell-learning-materials/index
+    - customizing-windows-terminal/index
+license: true

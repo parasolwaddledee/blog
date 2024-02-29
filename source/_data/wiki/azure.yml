@@ -1,0 +1,10 @@
+name: Azure
+title: Azure
+description: Azure 是 Microsoft 的云计算平台，拥有丰富的基础设施、平台和服务，并且提供安全性、可靠性和可扩展性。
+tags: 笔记
+icon: /assets/wiki/azure/logo.svg
+base_dir: /wiki/azure/
+toc:
+  - index
+  - integration-between-azure-ad-sso-and-aws-china/index
+license: true

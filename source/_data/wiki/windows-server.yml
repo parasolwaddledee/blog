@@ -1,0 +1,10 @@
+name: Windows Server 
+title: Windows Server
+description: Windows Server 是 Microsoft 的服务器操作系统，适用于企业和组织，旨在帮助构建稳定、安全的服务器基础架构。
+tags: 笔记
+icon: /assets/wiki/windows-server/logo.svg
+base_dir: /wiki/windows-server/
+toc:
+  - index
+  - setting-ntfs-permissions-via-icacls-exe/index
+license: true
