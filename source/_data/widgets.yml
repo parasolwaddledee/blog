@@ -65,7 +65,7 @@ label:
   title: 我的标签
   content: 90 后 / IT 运维工程师 / INTJ-A / 坐标上海 / 爱好旅行 / 麦门信徒 / 喜欢折腾 / 爱听音乐 / 爱玩游戏
 
-motto:
+photo:
   layout: markdown
-  title: 博主寄语
-  content: 一个人应该能够给孩子换尿布、计划一次侵略行动、杀猪、驾驶飞船、设计建筑物、写诗、做会计账目、砌墙、接合断骨、照顾临终的人、执行命令、下达命令、与人合作、独立行动、解方程式、分析一个新问题、施肥、编程、做一餐美味的饭、高效地战斗、勇敢地死去。专业化是为昆虫准备的。 —— 罗伯特 · 海因莱因
+  title: 2023.11 拍摄于新西兰普卡基湖
+  content: <div class="tag-plugin image" style="margin-top:12px; margin-bottom:12px;"><div class="image-bg"><img src="/assets/more/me/photo.jpg" data-fancybox="true"></div></div>
