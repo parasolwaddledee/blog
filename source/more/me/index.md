@@ -33,13 +33,7 @@ sidebar: label, photo
 
 {% grid %}
 <!-- cell -->
-{% link mailto:parasol@waddledee.com Email icon:/assets/placeholder/email.svg %}
+{% link mailto:parasol@waddledee.com Email icon:/assets/more/me/email.png %}
 <!-- cell -->
-{% link https://t.me/parasolwaddledee Telegram icon:/assets/placeholder/telegram.svg %}
+{% link https://t.me/parasolwaddledee Telegram icon:/assets/more/me/telegram.png %}
 {% endgrid %}
-
-<style>
-  .md-text .link-card .img {
-    filter: invert(85%) sepia(0%) saturate(1%) hue-rotate(87deg) brightness(95%) contrast(98%);
-  }
-</style>
