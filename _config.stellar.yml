@@ -240,25 +240,25 @@ comments:
 footer:
   social:
     email:
-      icon: '<img src="/assets/placeholder/email.svg"/>'
+      icon: email
       url: mailto:parasol@waddledee.com
     telegram:
-      icon: '<img src="/assets/placeholder/telegram.svg"/>'
+      icon: telegram
       url: https://t.me/parasolwaddledee
     github:
-      icon: '<img src="/assets/placeholder/github.svg"/>'
+      icon: github
       url: https://github.com/parasolwaddledee
     spotify:
-      icon: '<img src="/assets/placeholder/spotify.svg"/>'
+      icon: spotify
       url: https://open.spotify.com/user/314fomtq7falbqky3e2sjwukpcja
     sitemap:
-      icon: '<img src="/assets/placeholder/sitemap.svg"/>'
+      icon: sitemap
       url: /sitemap.xml
     rss:
-      icon: '<img src="/assets/placeholder/rss.svg"/>'
+      icon: rss
       url: /atom.xml
     travellings:
-      icon: '<img src="/assets/placeholder/travellings.svg"/>'
+      icon: travellings
       url: https://www.travellings.cn/go.html
   sitemap:
     博客:
