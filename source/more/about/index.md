@@ -8,7 +8,7 @@ sidebar: waddledee, opensource
 
 {% navbar active:/more/about/ [我的订阅](/more/) [我的歌单](/more/music/) [关于本站](/more/about/) [关于博主](/more/me/) %}
 
-{% image /assets/more/about/waddledee.jpg %}
+{% image /assets/more/about/banner.jpg %}
 
 这里是瓦豆鲁迪的个人站点。我在这里记录生活的点滴与感悟，也在这里分享和技术相关的内容。希望我的内容对您有所帮助，如果您有任何想法或问题，欢迎在评论区留言。
 
