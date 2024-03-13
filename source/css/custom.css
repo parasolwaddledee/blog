@@ -123,3 +123,12 @@ li {
   border-radius: 12px;
   --gap-p: 21px;
 }
+
+/* gallery */
+.tag-plugin.gallery.grid-box[size=xl] {
+  grid-gap: 4px;
+}
+
+.tag-plugin.gallery.grid-box[size=xl] .grid-cell, .tag-plugin.gallery.grid-box[size=xl] img {
+  border-radius: 4px;
+}
