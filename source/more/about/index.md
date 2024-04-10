@@ -3,7 +3,7 @@ layout: page
 menu_id: more
 breadcrumb: false
 comment_id: /more/
-sidebar: waddledee, opensource
+leftbar: waddledee, opensource
 ---
 
 {% navbar active:/more/about/ [我的订阅](/more/) [我的歌单](/more/music/) [关于本站](/more/about/) [关于博主](/more/me/) %}

@@ -3,7 +3,7 @@ layout: page
 menu_id: more
 breadcrumb: false
 comments: false
-sidebar: music
+leftbar: music
 ---
 
 {% navbar active:/more/music/ [我的订阅](/more/) [我的歌单](/more/music/) [关于本站](/more/about/) [关于博主](/more/me/) %}

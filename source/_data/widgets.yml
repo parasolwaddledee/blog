@@ -1,3 +1,7 @@
+recent:
+  layout: recent
+  limit: 5
+
 welcome:
   layout: markdown
   title: 欢迎光临瓦豆鲁迪的个人站点！
@@ -63,7 +67,7 @@ opensource:
 label:
   layout: markdown
   title: 我的标签
-  content: 90 后 / IT 运维工程师 / INTJ-A / 坐标上海 / 爱好旅行 / 麦门信徒 / 喜欢折腾 / 爱听音乐 / 爱玩游戏
+  content: 90 后 / IT 运维工程师 / INTJ-A / 坐标上海 / 麦门信徒 / 五星评论家
 
 photo:
   layout: markdown
