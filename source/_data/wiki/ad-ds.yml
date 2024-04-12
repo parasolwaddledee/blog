@@ -1,0 +1,7 @@
+name: AD DS
+title: Active Directory 域服务 (AD DS)
+description: Active Directory 域服务是一种目录服务，用于存储网络上的对象的相关信息，并提供对网络资源（如用户、组和计算机）的安全和集中的管理。
+tags: Windows Server
+icon: /assets/wiki/ad-ds/icon.svg
+base_dir: /wiki/ad-ds/
+license: true
