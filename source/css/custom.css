@@ -71,6 +71,10 @@ body:before {
   --waline-badge-font-size: 13px;
 }
 
+.wl-content .vemoji, .wl-content .wl-emoji {
+  height: 24px !important;
+}
+
 .wl-header label,
 .wl-header input,
 .wl-info button,
