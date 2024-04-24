@@ -10,3 +10,4 @@ tree:
     - architecture/index
     - install-the-first-domain-controller/index
     - install-additional-domain-controllers/index
+    - install-the-read-only-domain-controller/index
