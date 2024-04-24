@@ -8,3 +8,4 @@ license: true
 tree:
   环境搭建:
     - architecture/index
+    - install-the-first-domain-controller/index
