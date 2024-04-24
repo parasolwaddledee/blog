@@ -9,3 +9,4 @@ tree:
   环境搭建:
     - architecture/index
     - install-the-first-domain-controller/index
+    - install-additional-domain-controllers/index
