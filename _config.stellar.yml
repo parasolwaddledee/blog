@@ -1,6 +1,6 @@
 ######## Stellar info ########
 stellar:
-  version: '1.27.0'
+  version: '1.28.0'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
   main_css: /css/main.css
@@ -136,11 +136,15 @@ article:
     max_count: 5
 
 search:
-  service: local_search # local_search, todo...
+  service: local_search # local_search, algolia_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
     field: all # post, page, all
     path: /search.json # 搜索文件存放位置
     content: true # 是否搜索内容
+  algolia_search: # Docsearch https://docsearch.algolia.com/apply/ 申请
+    appId: 
+    apiKey: 
+    indexName: 
 
 
 ######## Comments ########
@@ -195,9 +199,9 @@ comments:
   # Waline
   # https://waline.js.org/
   waline:
-    js: /js/waline.js # https://gcore.jsdelivr.net/npm/@waline/client@3.1.2/dist/waline.js
-    css: /css/waline.css # https://gcore.jsdelivr.net/npm/@waline/client@3.1.2/dist/waline.css
-    meta_css: /css/waline-meta.css # https://gcore.jsdelivr.net/npm/@waline/client@3.1.2/dist/waline-meta.css
+    js: /js/waline.js # https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.js
+    css: /css/waline.css # https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.css
+    meta_css: /css/waline-meta.css # https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline-meta.css
     # Waline server address url, you should set this to your own link
     serverURL: https://comments.waddledee.com/
     # If false, comment count will only be displayed in post page, not in home page
