@@ -5,3 +5,6 @@ tags: Windows Server
 icon: /assets/wiki/ad-ds/icon.svg
 base_dir: /wiki/ad-ds/
 license: true
+tree:
+  环境搭建:
+    - architecture/index
