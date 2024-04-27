@@ -11,3 +11,4 @@ tree:
     - install-the-first-domain-controller/index
     - install-additional-domain-controllers/index
     - install-the-read-only-domain-controller/index
+    - configure-site-replication/index
