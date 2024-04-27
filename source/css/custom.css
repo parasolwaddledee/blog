@@ -118,6 +118,10 @@ li {
   font-size: var(--fsp);
 }
 
+.md-text img {
+  margin: unset;
+}
+
 .swiper {
   border-radius: 12px;
   --gap-p: 21px;
