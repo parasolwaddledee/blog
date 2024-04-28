@@ -1,6 +1,7 @@
 ---
 wiki: ad-ds
 title: 安装首台域控制器
+date: 2024-04-23
 ---
 
 {% image /assets/wiki/ad-ds/install-the-first-domain-controller/install-the-first-domain-controller-01.png  %}

@@ -1,6 +1,7 @@
 ---
 wiki: ad-ds
 title: 安装额外域控制器
+date: 2024-04-24
 ---
 
 {% image /assets/wiki/ad-ds/install-additional-domain-controllers/install-additional-domain-controllers-01.png %}

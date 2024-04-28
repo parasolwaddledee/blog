@@ -1,6 +1,7 @@
 ---
 wiki: ad-ds
 title: 安装只读域控制器
+date: 2024-04-25
 ---
 
 {% image /assets/wiki/ad-ds/install-the-read-only-domain-controller/install-the-read-only-domain-controller-01.png %}
