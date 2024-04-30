@@ -6,9 +6,9 @@ icon: /assets/wiki/ad-ds/icon.svg
 base_dir: /wiki/ad-ds/
 license: true
 tree:
-  环境搭建:
-    - architecture/index
-    - install-the-first-domain-controller/index
-    - install-additional-domain-controllers/index
+  操作手册:
+    - system-architecture/index
+    - install-the-primary-domain-controller/index
+    - install-the-backup-domain-controller/index
     - install-the-read-only-domain-controller/index
     - configure-site-replication/index
