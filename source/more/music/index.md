@@ -17,9 +17,9 @@ leftbar: music
 
 {% grid %}
 <!-- cell -->
-<iframe style="border-radius:12px;margin:0;" src="https://open.spotify.com/embed/album/2nLOHgzXzwFEpl62zAgCEC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px;margin:0;" src="https://open.spotify.com/embed/album/5EYKrEDnKhhcNxGedaRQeK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <!-- cell -->
 <iframe style="border-radius:12px;margin:0;" src="https://open.spotify.com/embed/track/63Awy6tiUUsbuLRnpPlS5I?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 {% endgrid %}
 
-<iframe style="border-radius:12px;margin:0;" src="https://open.spotify.com/embed/playlist/5T28M3T5SmhUqwGt1a4XAG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px;margin:0;" src="https://open.spotify.com/embed/playlist/5f5HMRJxT3zctudd7i3juo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
