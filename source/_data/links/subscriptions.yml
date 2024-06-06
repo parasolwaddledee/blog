@@ -33,7 +33,7 @@
   icon: https://blog.linsnow.cn/img/avatar.png
 - title: liuli
   url: https://back2me.cn/
-  icon: https://gravatar.6pear.com/avatar/eae0d0e4c88df7d1bb622c7577023606
+  icon: https://cdn.back2me.cn/2023/03/26/641ff43ed5107.png
 - title: Elizen
   url: https://elizen.me/
   icon: https://cravatar.cn/avatar/613b0829988df7c6add97d018a48029d?d=identicon
@@ -76,9 +76,12 @@
 - title: 那个码农
   url: https://blog.thatcoder.cn/
   icon: https://upyun.thatcdn.cn/hexo/stellar/image/favicon.webp
-- title: SkyReeves
-  url: https://skyreeves.com/
-  icon: https://img.skyreeves.com/main/avatar96.gif
+- title: 纸鹿摸鱼处
+  url: https://blog.zhilu.cyou/
+  icon: https://cravatar.cn/avatar/13aa912754e6bb5e671f3e6654e4712d
+- title: 宇宙尽头的餐馆
+  url: https://www.flyalready.cn/
+  icon: https://www.flyalready.cn/asset/images/avatar.jpg
 - title: itsNeko
   url: https://dyfa.top/
   icon: https://dyfa.top/usr/themes/Nabo-theme-typecho-main/image/logo.jpg
@@ -91,6 +94,3 @@
 - title: Foxhole
   url: https://blog.southfox.me/
   icon: https://blog.southfox.me/favicon.png
-- title: gd1214b
-  url: https://www.gd1214b.icu/
-  icon: https://blog.gd1214b.icu/images/avatar.png
