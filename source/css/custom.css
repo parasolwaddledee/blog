@@ -26,15 +26,9 @@ body:before {
   }
 }
 
-/* navbar */
-.nav-area .menu .nav-item.active:after {
-  background: #1cd0fd;
-}
-
 /* widget */
-.widgets .widget-wrapper .widget-header>span {
-  color: #1cd0fd;
-  opacity: 1;
+.widget-wrapper.post-list .widget-body a:hover {
+  background: var(--alpha50);
 }
 
 /* social */
@@ -71,7 +65,8 @@ body:before {
   --waline-badge-font-size: 13px;
 }
 
-.wl-content .vemoji, .wl-content .wl-emoji {
+.wl-content .vemoji,
+.wl-content .wl-emoji {
   height: 24px !important;
 }
 

@@ -557,10 +557,10 @@ style:
     code: 'hsl(220 20% 10%)' # 行内代码颜色
     text: 'hsl(0 0% 20%)' # 文本颜色
     # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
-    theme: 'hsl(192 98% 55%)' # 主题色
-    accent: 'hsl(14 100% 57%)' # 强调色
-    link: 'hsl(207 90% 54%)' # 超链接颜色
-    hover: 'hsl(14 100% 57%)' # 按钮高亮颜色
+    theme: 'hsl(198 73% 53%)' # 主题色
+    accent: 'hsl(46 100% 52%)' # 强调色
+    link: 'hsl(198 73% 53%)' # 超链接颜色
+    hover: 'hsl(46 100% 52%)' # 按钮高亮颜色
   animated_avatar:
     animate: auto # auto, always
     background: /assets/placeholder/rainbow64@3x.webp
@@ -575,9 +575,9 @@ style:
   leftbar:
     # 可以设置：纯色/渐变色/图片作为背景
     # background: var(--leftbar-bg)
-    # background-image: url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.13/image/sidebar-bg1@small.jpg)
-    # blur-px: 100px
-    # blur-bg: var(--alpha60)
+    background-image: 'linear-gradient(to top, #a3bded 0%, #6991c7 100%)'
+    blur-px: 150px
+    blur-bg: var(--alpha60)
   paginator:
     prev: /assets/placeholder/prev.svg
     next: /assets/placeholder/next.svg
