@@ -122,6 +122,13 @@ li {
   --gap-p: 21px;
 }
 
+/* note */
+.md-text .tag-plugin.note>.title,
+.md-text .tag-plugin.note>.body,
+.md-text .tag-plugin.note>.body p {
+  --fsp: 16px;
+}
+
 /* gallery */
 .tag-plugin.gallery.grid-box[size=xl] {
   grid-gap: 4px;
