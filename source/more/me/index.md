@@ -10,7 +10,7 @@ leftbar: label, photo
 
 ## 我的职业
 
-目前是一名 IT 运维工程师，毕业之后开始专注微软技术。从操作系统 Windows Server 和虚拟化技术 Hyper-V，到统一通信平台 Exchange、Lync、SharePoint Server，再到 System Center、Dynamics Server 系列产品，一路追随微软的脚步成长。最近几年，随着云计算与低代码的日益发展，也先后熟悉了 Azure、Power Platform 等平台。我当下的目标是成为一名微软技术顾问。
+目前是一名 IT 系统工程师，毕业之后开始专注微软技术。从操作系统 Windows Server 和虚拟化技术 Hyper-V，到统一通信平台 Exchange、Lync、SharePoint Server，再到 System Center、Dynamics Server 系列产品，一路追随微软的脚步成长。最近几年，随着云计算与低代码的日益发展，也先后熟悉了 Azure、Power Platform 等平台。我当下的目标是成为一名微软技术顾问。
 
 ## 人格类型
 
