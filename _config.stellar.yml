@@ -1,6 +1,6 @@
 ######## Stellar info ########
 stellar:
-  version: '1.28.1'
+  version: '1.29.0'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
   main_css: /css/main.css
@@ -89,6 +89,29 @@ site_tree:
   wiki:
     menu_id: wiki # 未在 front-matter 中指定 menu_id 时，layout 为 wiki 的页面默认使用这里配置的 menu_id
     leftbar: tree # for wiki
+    rightbar: ghrepo, toc
+  # 笔记本列表页配置
+  notebooks:
+    base_dir: notebooks # 笔记本列表页的路径。以及未指定 base_dir 的笔记本的路径前缀。
+    menu_id: notebooks # 笔记本列表页高亮的主导航栏菜单按钮。
+    # 笔记本列表页的左侧栏和右侧栏。
+    leftbar: recent # recent within all notebooks
+    rightbar: null
+  # 笔记列表页配置
+  notes:
+    # 笔记列表页和笔记页高亮的主导航栏菜单按钮。
+    # 可以在笔记本 yaml 的 menu_id 字段中覆盖此参数。
+    # 可以在笔记的 front-matter/menu_id 中覆盖此参数。
+    menu_id: notebooks
+    # 笔记列表页的左侧栏和右侧栏。可以在笔记本 yaml 的 leftbar 和 rightbar 字段中覆盖此参数。
+    leftbar: tagtree, recent # recent of current notebook
+    rightbar: null
+  # 笔记页配置
+  note:
+    # 笔记页的左侧栏和右侧栏
+    # 可以在笔记本 yaml 的 note_leftbar 和 note_rightbar 字段中覆盖此参数。
+    # 可以在笔记的 front-matter/leftbar 和 rightbar 字段中覆盖此参数。
+    leftbar: tagtree, recent # recent of current notebook
     rightbar: toc
   # 作者信息配置
   author: 
@@ -106,6 +129,31 @@ site_tree:
   page:
     leftbar: welcome
     rightbar:
+
+
+######## Notebook ########
+notebook:
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要。
+  auto_excerpt: 128
+  # 可以为某个 tag 设定图标（显示在标签树中）。
+  tagcons:
+    '': solar:hashtag-linear
+  # 每页显示多少篇笔记。0 表示不分页，null 则 fallback 到 hexo 的配置。
+  # 可以在笔记本 yaml 的 per_page 字段中覆盖此参数。
+  per_page: null
+  # 笔记的排序方式。默认按照 updated 降序排序。
+  # 可以在笔记本 yaml 的 order_by 字段中覆盖此参数。
+  # 注意：置顶的笔记会始终排在最前面。
+  # 在 front-matter 中设置 pin:true|number 或 sticky:true|number 来置顶。
+  order_by: -updated
+  # 是否在笔记页面显示许可协议。false 表示不显示。true 表示沿用主题许可协议内容。也可以给定具体的文本指定协议内容。
+  # 可以在笔记本 yaml 的 license 字段中覆盖此参数。
+  # 可以在笔记的 front-matter/license 中覆盖此参数。
+  license: false
+  # 是否在笔记页面显示分享按钮。
+  # 可以在笔记本 yaml 的 share 字段中覆盖此参数。
+  # 可以在笔记的 front-matter/share 中覆盖此参数。
+  share: false
 
 
 ######## Article ########
@@ -151,6 +199,7 @@ search:
 comments:
   service: waline # beaudar, utterances, giscus, twikoo, waline, artalk
   comment_title: 快来参与讨论吧~
+  lazyload: false # true / false
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
@@ -243,8 +292,8 @@ comments:
   # Artalk
   # https://artalk.js.org/
   artalk:
-    css: https://unpkg.com/artalk@2.7/dist/Artalk.css
-    js: https://unpkg.com/artalk@2.7/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.8.5/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.8.5/dist/Artalk.js
     server: # 后端服务地址
     placeholder: ''
     darkMode: auto
@@ -484,11 +533,9 @@ plugins:
   # https://github.com/KaTeX/KaTeX
   # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
   katex:
-    enable: #true # 可以在特定文章的 front-matter 中设置 katex: true 来开启，也可以在这里设置全局开启
+    enable: #true # hexo-renderer-markdown-it-plus 默认开启 katex，此选项仅用于引入样式
     inject: |
       <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-      <script defer src="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-      <script defer src="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
 
   # MathJax
   # 需在Markdown文件开头加入mathjax: true
