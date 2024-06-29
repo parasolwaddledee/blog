@@ -35,15 +35,23 @@ menubar:
     # title: 标题
     # url: 点击跳转到哪，支持相对路径和绝对路径
     - id: post
+      theme: '#3af'
+      icon: post
       title: 博客
       url: /
     - id: wiki
+      theme: '#3ba'
+      icon: wiki
       title: 维基
       url: /wiki/
     - id: news
+      theme: '#77f'
+      icon: news
       title: 动态
       url: /news/
     - id: more
+      theme: '#ea2'
+      icon: more
       title: 更多
       url: /more/
 

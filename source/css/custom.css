@@ -36,6 +36,30 @@ body:before {
   font-weight: normal;
 }
 
+/* menubar */
+.nav-item::before {
+  content: attr(title);
+  position: absolute;
+  white-space: nowrap;
+  color: var(--text-p1);
+  background: var(--card);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: block;
+  transform: translateX(-50%);
+  top: 100%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  margin-top: 5px;
+  z-index: 9999;
+}
+
+.nav-item:hover::before {
+  opacity: 1;
+}
+
 /* widget */
 .widget-wrapper.post-list .widget-body a:hover {
   background: var(--alpha50);
