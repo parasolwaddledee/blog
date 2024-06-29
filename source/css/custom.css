@@ -26,6 +26,16 @@ body:before {
   }
 }
 
+/* logo */
+@font-face {
+  font-family: 'Logo';
+  src: url('../fonts/logo.woff2') format('woff2');
+}
+
+.logo-wrap a.title {
+  font-weight: normal;
+}
+
 /* widget */
 .widget-wrapper.post-list .widget-body a:hover {
   background: var(--alpha50);
