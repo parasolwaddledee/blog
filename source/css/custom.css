@@ -65,6 +65,10 @@ body:before {
   background: var(--alpha50);
 }
 
+.linklist .link span {
+  overflow: unset;
+}
+
 /* social */
 .l_left footer.footer {
   margin: .5rem var(--gap-margin) 1rem;

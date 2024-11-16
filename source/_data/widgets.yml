@@ -30,8 +30,19 @@ employment2024:
 
 subscriptions:
   layout: markdown
-  title: 关于「我的订阅」
-  content: 本页展示的是我关注的站点和博客，但请注意，本站并不交换友情链接。尽管友链有助于提升网站流量，但它也同时带来了限制和束缚。我更喜欢单方面订阅，这样就可以自由地关注自己感兴趣的内容，也无需担心删除友链对别人可能造成的影响。
+  title: 关于 - 我的订阅
+  content: 本页展示的是我目前正在关注的站点和博客，不过本站不交换友情链接。个人认为虽然友链有助于提升网站的流量，但也同时带来了限制与束缚。我更喜欢单方面的订阅，这样既可以自由关注自己感兴趣的内容，也无需担心删除友链带来的心理压力。
+
+travellings:
+  layout: markdown
+  title: 开往 - 友链接力
+  content: 「开往」是一个友链接力项目，旨在通过网络跳转的方式将流量引入那些鲜为人知的独立站点，从而推动网络的开放性和多元性。
+  linklist:
+    columns: 1
+    items:
+      - icon: next
+        title: 开往下一站
+        url: https://www.travellings.cn/go.html
 
 music:
   layout: markdown
